@@ -1,0 +1,27 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --canvas-color: #ffffff;
+  --canvas-min-height: 100vh;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.canvas {
+  width: 100%;
+  min-height: var(--canvas-min-height);
+  background: var(--canvas-color);
+}
